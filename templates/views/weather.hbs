@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{> headerlinks}}
+  
+</head>
+<body>
+   {{> navbar}}
+    <div classname="container-fluid ">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto ">
+            <div class="main_container">
+              <form>
+                <input type="text" placeholder="name the city" autocomplete="off" id="cityinput">
+                <input type="submit" value="search" id="submitBtn">
+              </form>
+            </div>
+            <div class="temp_info">
+              <div class="top_layer">
+                <p id="day">friday</p>
+                <p id="date">7 january 2021</p>
+              </div>
+              <div class="main_layer datahide">
+                <p id="city_name">kasganj</p>
+                <p id="temp"><span id="tempvalue"></span><sup>0</sup>C</p>
+                <span id="fssign">tempstatus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+            
+{{>footer}}
+ <script src="https://kit.fontawesome.com/cc38214f25.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+    
+   
+</body>
+</html>

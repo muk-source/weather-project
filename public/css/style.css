@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin: 0;
+}
+.main_menu{
+    background-color:#012121 ;
+}
+.navbar{
+    background-color:#012121;
+    padding: 2rem 0;
+}
+.navbar a{
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar li{
+    margin-left: 2rem;
+}
+.navbar-toggler-icon{
+   background-color:#fff;
+}
+.main-header-left{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    justify-content: center;
+}
+.main-header-left p{
+    font-size:2rem;
+    color: black;
+    font-weight: 500;
+
+}
+.main-header-left h1{
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+}
+.error{
+    background-color: red;
+}
+.main-header-left button:hover{
+    color: black;
+    background-color: #fff;
+    outline: none;
+}
+.main-header-right{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    justify-content: center;
+}
+.temp_info{
+    width: 40rem;
+    min-height: 20rem;
+    margin: auto;
+    background-color: #012121;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem 4rem;
+   
+}
+.top_layer{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    
+}
+.main_layer{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+.main_container{
+    width: 100%;
+    min-height: auto;
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#cityinput{
+    display: block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+#submitBtn{
+    display: block;
+    border-radius: 3px;
+    background-color: #012121;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.3rem;
+    margin: auto auto 1rem auto;
+
+}
+.datahide{
+    visibility: hidden;
+}
+footer{
+    background-color: #012121;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-top: auto;
+}
+@media(max-width:768px){
+    .main-header-left{
+        height: auto;
+        margin: 3rem 0;
+    }
+    .main-header-right{
+        height: auto;
+        margin: 3rem 0;
+    }
+    .temp_info{
+        width: 28rem;
+    }
+
+}
